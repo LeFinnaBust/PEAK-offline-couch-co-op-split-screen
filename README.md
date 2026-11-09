@@ -1,0 +1,103 @@
+<img width="1921" height="1080" alt="PEAK_KeyArt_1080p" src="https://github.com/user-attachments/assets/e4b593e6-f5d1-4a9b-b8c3-0f5875593690" />
+
+
+[README.md](https://github.com/user-attachments/files/34604173/README.md)
+A small AppImage installer for a local splitscreen coop mod for PEAK. It adds a Split the screen
+button under Play offline in PEAK's main menu, so players on one machine each get their own controller,
+camera, and HUD.
+
+ ⚠️ You must own PEAK on Steam
+ This installer does not include, download, or unlock the game. It only works on a legitimate copy of
+ PEAK that you have bought on Steam and installed in your own Steam library. If you don't own PEAK on Steam,
+ it has nothing to install into and will simply say it can't find the game. Please buy the game and support
+ its developers. This project does not support or help with pirated copies.
+
+ This is an unofficial fan mod, not affiliated with or endorsed by PEAK's developers or Valve.
+
+ Requirements
+
+ PEAK, owned on Steam and installed (Steam app id 3527290). On the Steam Deck, Proton runs the Windows
+ build of the game.
+ The installer window needs a desktop session. so obviously if youre on steamdeck be sure to be in desktop mode for the initial installation. 
+ 
+
+ Using it
+
+1. Make sure PEAK is installed through Steam and closed.
+2. Run the AppImage (chmod +x it first if needed). It looks for PEAK in your Steam libraries and asks whether
+   to install the coop files.
+3. Click Install coop files, then Launch PEAK (or start the game from Steam yourself).
+4. In PEAK's main menu, choose Split the screen.
+5. chose a controller per player 
+6. Have fun!
+After a PEAK update, run the installer again.
+
+
+
+The window is keyboard/mouse and touch screen friendly.
+
+ 
+
+ 
+
+install / update the mod 
+ uninstall / restore PEAK's original files and remove the mod 
+ launch  make sure this build's files are installed, then start PEAK through Steam 
+ selftest out.json  run the installer against a throwaway fake PEAK folder and write a pass/fail report 
+ screenshot out.png  render the window and save a screenshot 
+ writeicon out.png  write the app icon 
+
+install, uninstall and launch print the result and exit with 0 on success, 1 on failure.
+
+ What it changes
+
+Everything stays inside PEAK's own folder, and nothing keeps running afterward — the mod loads inside the game.
+There is no BepInEx or other mod loader.
+
+1. Copies PeakSplitScreen.dll (the mod) and 0Harmony.dll the
+   MITlicensed patching library the mod uses) into PEAK_Data/Managed/.
+2. Adds PeakSplitScreen.dll (type 16, a game code file) to PEAK_Data/ScriptingAssemblies.json.
+3. Adds a PeakSplitScreen.Entry.Init entry to PEAK_Data/RuntimeInitializeOnLoads.json, so Unity runs the
+   mod's startup method when the game starts.
+
+The two JSON files are backed up first (*.json.splitscreenbackup). Uninstall removes exactly what was
+added and deletes the two DLLs, putting PEAK back as it was. The installer refuses to touch a list file whose
+shape looks unusual.
+
+Launch PEAK checks that the mod files in the game are the ones inside this AppImage (another build may have
+installed its own) and replaces them if not, then asks Steam to start the game via steam://rungameid/3527290
+so Proton, the Steam overlay, and your launch options all apply.
+
+ Building from source
+
+Needs Rust (cargo). The installer is a single file, src/main.rs, using [macroquad](https://macroquad.rs) for
+the window.
+
+sh
+cargo build release           target/release/peaksplitscreen
+cargo run release            run from the source tree; mod files come from build/mod/
+./buildappimage.sh             PEAKSplitscreenx86_64.AppImage (downloads appimagetool if needed)
+
+
+When run from the source tree, the installer finds the mod files in build/mod/; inside the AppImage it finds
+them in usr/share/peaksplitscreen/.
+
+selftest: 
+
+sh 
+./target/release/peaksplitscreen selftest /tmp/result.json
+
+
+It builds a fake PEAK folder, installs, reinstalls, uninstalls, checks the original files come back exactly,
+and checks the Launch logic.
+
+
+src/main.rs                      the installer: game detection, install/uninstall, window, CLI, selftest
+Cargo.toml                       build settings
+build/mod/                       the prebuilt mod files that get installed (PeakSplitScreen.dll, 0Harmony.dll)
+packaging/                       AppRun, .desktop file, icon for the AppImage
+buildappimage.sh                packs the AppImage
+
+
+
+ ⚠️A.I assisted⚠️

@@ -1,6 +1,6 @@
+STEAMDECK/LINUX/WINDOWS
 
-
-A small AppImage installer for a local splitscreen coop mod for PEAK. It adds a Split the screen
+A small windows and appimage installer for local splitscreen couch co-op mod for PEAK. It adds a Split the screen
 button under Play offline in PEAK's main menu, so players on one machine each get their own controller,
 camera, and HUD.
 
@@ -20,10 +20,11 @@ camera, and HUD.
  
 
  Using it
+ The window is keyboard/mouse and touch screen friendly.
 
 1. Make sure PEAK is installed through Steam and closed.
 2. Run the AppImage (chmod +x it first if needed). It looks for PEAK in your Steam libraries and asks whether
-   to install the coop files.
+   to install the co-op files.
 3. Click Install coop files, then Launch PEAK (or start the game from Steam yourself).
 4. In PEAK's main menu, choose Split the screen.
 5. chose a controller per player 
@@ -32,13 +33,7 @@ After a PEAK update, run the installer again.
 
 
 
-The window is keyboard/mouse and touch screen friendly.
-
- 
-
- 
-
-install / update the mod 
+ install / update the mod 
  uninstall / restore PEAK's original files and remove the mod 
  launch  make sure this build's files are installed, then start PEAK through Steam 
  selftest out.json  run the installer against a throwaway fake PEAK folder and write a pass/fail report 
@@ -58,13 +53,6 @@ There is no BepInEx or other mod loader.
 3. Adds a PeakSplitScreen.Entry.Init entry to PEAK_Data/RuntimeInitializeOnLoads.json, so Unity runs the
    mod's startup method when the game starts.
 
-The two JSON files are backed up first (*.json.splitscreenbackup). Uninstall removes exactly what was
-added and deletes the two DLLs, putting PEAK back as it was. The installer refuses to touch a list file whose
-shape looks unusual.
-
-Launch PEAK checks that the mod files in the game are the ones inside this AppImage (another build may have
-installed its own) and replaces them if not, then asks Steam to start the game via steam://rungameid/3527290
-so Proton, the Steam overlay, and your launch options all apply.
 
  Building from source
 

@@ -1,7 +1,5 @@
 
 
-
-[README.md](https://github.com/user-attachments/files/34604173/README.md)
 A small AppImage installer for a local splitscreen coop mod for PEAK. It adds a Split the screen
 button under Play offline in PEAK's main menu, so players on one machine each get their own controller,
 camera, and HUD.

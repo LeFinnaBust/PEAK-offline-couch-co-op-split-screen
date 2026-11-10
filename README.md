@@ -1,4 +1,4 @@
-Linux, Steamdeck and windows.
+Works on Linux, Steamdeck and Windows.
 A small windows and appimage installer for local splitscreen couch co-op for PEAK. It adds a Split the screen
 button under Play offline in PEAK's main menu, so players on one machine each get their own controller,
 camera, and HUD. Each players expressions, clothing, and color are randomized every game.

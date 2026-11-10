@@ -1,4 +1,5 @@
-Linux, steamdeck and windows. 
+<img width="2172" height="724" alt="Linux Steam Deck Script Logo" src="https://github.com/user-attachments/assets/7863fa55-a003-42af-b7f3-ce0a82f9a599" />
+ and windows. 
 <img width="1920" height="1080" alt="Screenshot_20261109_184901" src="https://github.com/user-attachments/assets/f6f6736d-fa9e-4655-92c8-aa101a8fd4f8" />
 
 

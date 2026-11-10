@@ -1,21 +1,23 @@
-LINUX/WINDOWS
+Linux, steamdeck and windows. 
 <img width="1920" height="1080" alt="Screenshot_20261109_184901" src="https://github.com/user-attachments/assets/f6f6736d-fa9e-4655-92c8-aa101a8fd4f8" />
 
 
-STEAMDECK
 <img width="4000" height="3000" alt="20261109_190118" src="https://github.com/user-attachments/assets/3e9f8f54-1153-4839-b7e3-6423bed1a465" />
 
 
 A small windows and appimage installer for local splitscreen couch co-op mod for PEAK. It adds a Split the screen
 button under Play offline in PEAK's main menu, so players on one machine each get their own controller,
 camera, and HUD. Each players expressions, clothing, and color are randomized every game.
-<img width="1920" height="1080" alt="Screenshot_20261109_191911" src="https://github.com/user-attachments/assets/d68d7db0-5f64-4063-8c26-4bfba7e3cc8e" />
+<img width="1920" height="1080" alt="Screenshot_20261109_192111" src="https://github.com/user-attachments/assets/1a3c28ec-d30a-4963-a965-0ed2affb5ad6" />
+<img width="1920" height="1080" alt="Screenshot_20261109_192134" src="https://github.com/user-attachments/assets/64daf8f0-08e1-4c45-a68b-6397d55d5eee" />
+
 
  ⚠️ You must own PEAK on Steam.
  This installer does not include, download, or unlock the game. It only works on a legitimate copy of
  PEAK that you have bought on Steam and installed in your own Steam library. If you don't own PEAK on Steam,
  it has nothing to install into and will simply say it can't find the game. Please buy the game and support
- its developers. This project does not support or help with pirated copies.
+ its developers. This project does not support or help with pirated copies.<img width="1920" height="1080" alt="Screenshot_20261109_192134" src="https://github.com/user-attachments/assets/b91715b7-b755-440b-af0c-9e1ff070f703" />
+
 
  This is an unofficial fan mod, not affiliated with or endorsed by PEAK's developers or Valve.
 

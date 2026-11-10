@@ -1,7 +1,10 @@
+LINUX/WINDOWS
 <img width="1920" height="1080" alt="Screenshot_20261109_184901" src="https://github.com/user-attachments/assets/f6f6736d-fa9e-4655-92c8-aa101a8fd4f8" />
 
 
-STEAMDECK/LINUX/WINDOWS
+STEAMDECK
+<img width="4000" height="3000" alt="20261109_190118" src="https://github.com/user-attachments/assets/3e9f8f54-1153-4839-b7e3-6423bed1a465" />
+
 
 A small windows and appimage installer for local splitscreen couch co-op mod for PEAK. It adds a Split the screen
 button under Play offline in PEAK's main menu, so players on one machine each get their own controller,

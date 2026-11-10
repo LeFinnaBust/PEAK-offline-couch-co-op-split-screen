@@ -19,7 +19,7 @@ camera, and HUD. Each players expressions, clothing, and color are randomized ev
  its developers. This project does not support or help with pirated copies.
 
 
- This is am unofficial fan mod, not affiliated with or endorsed by PEAK's developers or valve. There will be bugs and some u.i glitches in vertical splitscreen when things pop up. 
+ This is am unofficial fan mod, not affiliated with or endorsed by PEAK's developers or valve. There will be bugs and some u.i glitches in vertical splitscreen when things pop up. Not everything is ironed out yet but the core gameplay works perfectly fine. 
 
  Requirements
 

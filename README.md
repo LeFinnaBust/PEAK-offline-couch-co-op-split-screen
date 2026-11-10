@@ -28,7 +28,7 @@ It adds a Split the screen button under the play offline button in PEAK's main m
  The installer window needs a desktop session. so obviously if youre on steamdeck be sure to be in desktop mode for the initial installation. 
  
 
- Using it
+ # Using it:
  The window is keyboard/mouse and touch screen friendly.
 
 1. Make sure PEAK is installed through Steam and closed.

@@ -38,7 +38,6 @@ It adds a "Split the screen" button under the "Play offline" button in PEAK's ma
 4. In PEAK's main menu, choose Split the screen.
 5. Choose a controller per player 
 6. Have fun!
-- After a PEAK update, run the installer again.
 
 
  What it changes

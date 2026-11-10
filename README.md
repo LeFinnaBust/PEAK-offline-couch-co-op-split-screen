@@ -83,10 +83,6 @@ sh
 ./target/release/peaksplitscreen selftest /tmp/result.json
 
 
-It builds a fake PEAK folder, installs, reinstalls, uninstalls, checks the original files come back exactly,
-and checks the Launch logic.
-
-
 src/main.rs                      the installer: game detection, install/uninstall, window, CLI, selftest
 Cargo.toml                       build settings
 build/mod/                       the prebuilt mod files that get installed (PeakSplitScreen.dll, 0Harmony.dll)

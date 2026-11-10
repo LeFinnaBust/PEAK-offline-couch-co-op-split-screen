@@ -11,7 +11,7 @@ button under Play offline in PEAK's main menu, so players on one machine each ge
 camera, and HUD. Each players expressions, clothing, and color are randomized every game.
 <img width="1920" height="1080" alt="Screenshot_20261109_191911" src="https://github.com/user-attachments/assets/d68d7db0-5f64-4063-8c26-4bfba7e3cc8e" />
 
- ⚠️ You must own PEAK on Steam
+ ⚠️ You must own PEAK on Steam.
  This installer does not include, download, or unlock the game. It only works on a legitimate copy of
  PEAK that you have bought on Steam and installed in your own Steam library. If you don't own PEAK on Steam,
  it has nothing to install into and will simply say it can't find the game. Please buy the game and support

@@ -16,7 +16,7 @@ camera, and HUD. Each players expressions, clothing, and color are randomized ev
  This installer does not include, download, or unlock the game. It only works on a legitimate copy of
  PEAK that you have bought on Steam and installed in your own Steam library. If you don't own PEAK on Steam,
  it has nothing to install into and will simply say it can't find the game. Please buy the game and support
- its developers. This project does not support or help with pirated copies.<img width="1920" height="1080" alt="Screenshot_20261109_192134" src="https://github.com/user-attachments/assets/b91715b7-b755-440b-af0c-9e1ff070f703" />
+ its developers. This project does not support or help with pirated copies.
 
 
  This is an unofficial fan mod, not affiliated with or endorsed by PEAK's developers or Valve.

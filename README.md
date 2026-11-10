@@ -41,16 +41,6 @@ It adds a Split the screen button under the play offline button in PEAK's main m
 - After a PEAK update, run the installer again.
 
 
-
- install / update the mod 
- uninstall / restore PEAK's original files and remove the mod 
- launch  make sure this build's files are installed, then start PEAK through Steam 
- selftest out.json  run the installer against a throwaway fake PEAK folder and write a pass/fail report 
- screenshot out.png  render the window and save a screenshot 
- writeicon out.png  write the app icon 
-
-install, uninstall and launch print the result and exit with 0 on success, 1 on failure.
-
  What it changes
 
 Everything stays inside PEAK's own folder, and nothing keeps running afterward — the mod loads inside the game.

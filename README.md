@@ -1,7 +1,7 @@
-This is a small installer for local splitscreen couch co-op for PEAK
-Works on Linux, Steamdeck and Windows. this mod brings native offline splitscreen to the steam version.
-It adds a Split the screen
-button under Play offline in PEAK's main menu, so players on one machine each get their own controller,
+# This is a small installer for local splitscreen couch co-op for PEAK
+# Works on Linux, Steamdeck and Windows. this mod brings native offline splitscreen to the steam version.
+# It adds a Split the screen
+# button under Play offline in PEAK's main menu, so players on one machine each get their own controller,
 camera, and HUD. Each extra players expressions, clothing, and color are randomized every game.
 <img width="1920" height="1080" alt="Screenshot_20261109_184901" src="https://github.com/user-attachments/assets/f6f6736d-fa9e-4655-92c8-aa101a8fd4f8" />
 

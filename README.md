@@ -51,33 +51,11 @@ There is no BepInEx or other mod loader.
 3. Adds a PeakSplitScreen.Entry.Init entry to PEAK_Data/RuntimeInitializeOnLoads.json, so Unity runs the
    mod's startup method when the game starts.
 
+Current glaring issues:
+Fog only works with player 1
+when playing vertical split-screen some things that pop up such a the badges will be cut off.
 
- Building from source
-
-Needs Rust (cargo). The installer is a single file, src/main.rs, using [macroquad](https://macroquad.rs) for
-the window.
-
-sh
-cargo build release           target/release/peaksplitscreen
-cargo run release            run from the source tree; mod files come from build/mod/
-./buildappimage.sh             PEAKSplitscreenx86_64.AppImage (downloads appimagetool if needed)
-
-
-When run from the source tree, the installer finds the mod files in build/mod/; inside the AppImage it finds
-them in usr/share/peaksplitscreen/.
-
-selftest: 
-
-sh 
-./target/release/peaksplitscreen selftest /tmp/result.json
-
-
-src/main.rs                      the installer: game detection, install/uninstall, window, CLI, selftest
-Cargo.toml                       build settings
-build/mod/                       the prebuilt mod files that get installed (PeakSplitScreen.dll, 0Harmony.dll)
-packaging/                       AppRun, .desktop file, icon for the AppImage
-buildappimage.sh                packs the AppImage
-
+please keep me posted on your experience with using the windows.exe as all testing has been done on a steamdeck LCD.
 
 
  ⚠️A.I assisted⚠️

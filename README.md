@@ -51,11 +51,5 @@ There is no BepInEx or other mod loader.
 3. Adds a PeakSplitScreen.Entry.Init entry to PEAK_Data/RuntimeInitializeOnLoads.json, so Unity runs the
    mod's startup method when the game starts.
 
-Current glaring issues:
-Fog only works with player 1
-when playing vertical split-screen some things that pop up such a the badges will be cut off.
-
-please keep me posted on your experience with using the windows.exe as all testing has been done on a steamdeck LCD.
-
 
  ⚠️A.I assisted⚠️

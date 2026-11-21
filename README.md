@@ -10,8 +10,7 @@ It adds a "Split the screen" button under the "Play offline" button in PEAK's ma
 
 
 
-<img width="1920" height="1080" alt="Screenshot_20261109_192111" src="https://github.com/user-attachments/assets/1a3c28ec-d30a-4963-a965-0ed2affb5ad6" />
-<img width="1920" height="1080" alt="Screenshot_20261109_192134" src="https://github.com/user-attachments/assets/64daf8f0-08e1-4c45-a68b-6397d55d5eee" />
+
 
 
  ⚠️ You must own PEAK on Steam.

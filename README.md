@@ -5,9 +5,9 @@ It adds a "Split the screen" button under the "Play offline" button in PEAK's ma
 <img width="1920" height="1080" alt="Screenshot_20261121_183327" src="https://github.com/user-attachments/assets/d9421a94-5e8d-4cc7-a823-dff0f2b84403" />
 2 Players can choose either 2 player horizontal or vertical splitscreen
 <img width="1920" height="1080" alt="Screenshot_20261121_190132" src="https://github.com/user-attachments/assets/22100585-798c-424d-83e5-433f64e7e206" />
-
+3 Players can choose either 3 vertical splitscreens or player 1 horizontal screen while players 2 and 3 have 3 small squares below.
 <img width="1920" height="1080" alt="Screenshot_20261121_183002" src="https://github.com/user-attachments/assets/da93cbb0-596c-4a18-911f-df92fe1790e3" />
-3 Players can choose either 3 vertical splitscreens or player 1 horizontal screen while players 2 and 3 have 3 small squares below.  
+  
 <img width="1920" height="1080" alt="Screenshot_20261121_190113" src="https://github.com/user-attachments/assets/e7391e20-ee19-4a1d-8e13-bf34918512f8" />
 
 <img width="1920" height="1080" alt="Screenshot_20261109_184901" src="https://github.com/user-attachments/assets/f6f6736d-fa9e-4655-92c8-aa101a8fd4f8" />

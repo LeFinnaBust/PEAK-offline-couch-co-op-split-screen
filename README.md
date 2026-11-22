@@ -1,7 +1,9 @@
 # This is a small installer for local split-screen couch co-op for PEAK
  This mod brings native offline splitscreen to the steam version PEAK.
 It adds a "Split the screen" button under the "Play offline" button in PEAK's main menu, so 2-4 players on one machine each get their own controller, camera and HUD. Each extra players expressions, clothing, and color are randomized every game. Passports for each character coming soon. Random outfits for now are just a laugh.
+
 <img width="1920" height="1080" alt="Screenshot_20261121_183002" src="https://github.com/user-attachments/assets/da93cbb0-596c-4a18-911f-df92fe1790e3" />
+<img width="1920" height="1080" alt="Screenshot_20261121_190113" src="https://github.com/user-attachments/assets/e7391e20-ee19-4a1d-8e13-bf34918512f8" />
 
 <img width="1920" height="1080" alt="Screenshot_20261109_184901" src="https://github.com/user-attachments/assets/f6f6736d-fa9e-4655-92c8-aa101a8fd4f8" />
 

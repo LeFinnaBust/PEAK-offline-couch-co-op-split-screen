@@ -41,7 +41,7 @@ It adds a "Split the screen" button under the "Play offline" button in PEAK's ma
 
 1. Make sure PEAK is installed through Steam and closed.
 2. Run the AppImage (chmod +x it first if needed). It looks for PEAK in your Steam libraries and asks whether
-   to install the co-op files.
+   to install the co-op files. Same for windows but the .exe
 3. Click Install coop files, then Launch PEAK (or start the game from Steam yourself).
 4. In PEAK's main menu, choose Split the screen.
 5. Choose a controller per player 

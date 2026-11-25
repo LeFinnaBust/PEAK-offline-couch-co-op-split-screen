@@ -10,6 +10,7 @@ It adds a "Split the screen" button under the "Play offline" button in PEAK's ma
 <img width="1920" height="1080" alt="Screenshot_20261125_101331" src="https://github.com/user-attachments/assets/baff7945-a0c8-447e-bb76-188c19498f67" />
   
 <img width="1920" height="1080" alt="Screenshot_20261121_190113" src="https://github.com/user-attachments/assets/e7391e20-ee19-4a1d-8e13-bf34918512f8" />
+<img width="1920" height="1080" alt="Screenshot_20261125_094704" src="https://github.com/user-attachments/assets/1ee8b293-768a-4a89-8397-86c89ec763f9" />
 
 <img width="1920" height="1080" alt="Screenshot_20261109_184901" src="https://github.com/user-attachments/assets/f6f6736d-fa9e-4655-92c8-aa101a8fd4f8" />
 

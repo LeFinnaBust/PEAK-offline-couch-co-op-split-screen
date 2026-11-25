@@ -29,6 +29,17 @@ It adds a "Split the screen" button under the "Play offline" button in PEAK's ma
 
 ⚠️ This is an unofficial fan mod, not affiliated with or endorsed by PEAK's developers or valve. There will be bugs and some U.I glitches in vertical splitscreen when things pop up. Fog for extra players pov is still being worked on. All testing was done on a steamdeck. Please let me know your experience on windows.
 
+ What it changes
+
+Everything stays inside PEAK's own folder, and nothing keeps running afterward — the mod loads inside the game.
+There is no BepInEx or other mod loader.
+
+1. Copies PeakSplitScreen.dll (the mod) and 0Harmony.dll the
+   MITlicensed patching library the mod uses) into PEAK_Data/Managed/.
+2. Adds PeakSplitScreen.dll (type 16, a game code file) to PEAK_Data/ScriptingAssemblies.json.
+3. Adds a PeakSplitScreen.Entry.Init entry to PEAK_Data/RuntimeInitializeOnLoads.json, so Unity runs the
+   mod's startup method when the game starts.
+
  # Requirements
 
  PEAK, owned on Steam and installed (Steam app id 3527290). On the Steam Deck, Proton runs the Windows
@@ -48,16 +59,7 @@ It adds a "Split the screen" button under the "Play offline" button in PEAK's ma
 6. Have fun!
 
 
- What it changes
 
-Everything stays inside PEAK's own folder, and nothing keeps running afterward — the mod loads inside the game.
-There is no BepInEx or other mod loader.
-
-1. Copies PeakSplitScreen.dll (the mod) and 0Harmony.dll the
-   MITlicensed patching library the mod uses) into PEAK_Data/Managed/.
-2. Adds PeakSplitScreen.dll (type 16, a game code file) to PEAK_Data/ScriptingAssemblies.json.
-3. Adds a PeakSplitScreen.Entry.Init entry to PEAK_Data/RuntimeInitializeOnLoads.json, so Unity runs the
-   mod's startup method when the game starts.
 
 
  ⚠️A.I assisted⚠️

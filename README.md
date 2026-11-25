@@ -27,7 +27,7 @@ It adds a "Split the screen" button under the "Play offline" button in PEAK's ma
  its developers. This project does not support or help with pirated copies.
 
 
-⚠️ This is an unofficial fan mod, not affiliated with or endorsed by PEAK's developers or valve. There will be bugs and some U.I glitches in vertical splitscreen when things pop up. Fog for extra players pov is still being worked on. All testing was done on a steamdeck. Please let me know your experience on windows.
+⚠️ This is an unofficial fan mod, not affiliated with or endorsed by PEAK's developers. There will be bugs and some U.I glitches in vertical splitscreen when things pop up. Fog for extra players pov is still being worked on. All testing was done on a steamdeck. Please let me know your experience on windows.
 
  What it changes
 
